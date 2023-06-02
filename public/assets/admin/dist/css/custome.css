@@ -1,0 +1,90 @@
+body {
+    background-color: rgba(226, 226, 226, 0.315);
+}
+
+.form-control:focus {
+    border-color: rgb(122, 196, 209);
+    box-shadow: none;
+}
+
+.form-select:focus {
+    border-color: rgb(122, 196, 209);
+    box-shadow: none;
+}
+
+.navbar-expand-lg.navbar-vertical~.navbar {
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.178);
+}
+
+.navbar-vertical.navbar-expand-lg .navbar-brand {
+    padding: .5rem 0 0 0;
+}
+
+.btn-primary {
+    background-color: rgb(4, 104, 134);
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+.container-xl {
+    padding-left: calc(var(--tblr-gutter-x) * .9);
+}
+
+.markdown>table thead th, .table thead th {
+    font-size: 0.8rem;
+    background: none;
+    padding: .8rem;
+}
+
+
+.markdown>table>thead, .table>thead {
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.11);
+}
+
+.btn-sm {
+    width: 100%;
+    padding-top: .3rem;
+    padding-bottom: .3rem;
+    font-size: .8rem;
+}
+
+.btn-trash {
+    --tblr-btn-border-color : none;
+    --tblr-btn-hover-bg: none;
+    --tblr-btn-hover-border-color:  none;
+    --tblr-btn-box-shadow:  none;
+    --tblr-btn-active-color:  none;
+    --tblr-btn-active-bg:  none;
+    --tblr-btn-active-border-color:  none;
+}
+
+.btn-trash:hover {
+    color: red;
+}
+
+.form-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.note-editable {
+    background-color: #FFFFFF;
+}
+
+.active-menu {
+    background-color: #206bc4;
+}
+
+.drop-shadow {
+    filter: drop-shadow(1px 1px 0px rgba(255, 255, 255, 0.493));
+}
+
+
+@media screen and (min-width: 768px)
+{
+    .card-95 {
+        width: 95%;
+    }
+}
